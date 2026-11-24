@@ -14,8 +14,15 @@
   <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
 </head>
-<body>
+<body style="background:#bfe9ff">
   <div id="app"></div>
+  <script>
+    // Si quelque chose plante sur la tablette, on affiche l'erreur au lieu d'un écran blanc.
+    window.onerror = function (msg, src, line) {
+      var a = document.getElementById('app');
+      if (a && !a.innerHTML) a.innerHTML = '<p style="padding:20px;font:18px sans-serif">Oups : ' + msg + ' (ligne ' + line + ')<br>' + navigator.userAgent + '</p>';
+    };
+  </script>
   <script src="app.js"></script>
   <script>
     if ('serviceWorker' in navigator && location.protocol !== 'file:') {

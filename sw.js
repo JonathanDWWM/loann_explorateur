@@ -1,6 +1,6 @@
 // Service worker : permet à l'application de fonctionner sans internet.
 // Pensez à changer CACHE (v2, v3...) après chaque modification pour forcer la mise à jour.
-const CACHE = 'loann-v5';
+const CACHE = 'loann-v6';
 const FILES = [
   './', './index.html', './style.css', './app.js', './manifest.webmanifest',
   './icons/icon-192.png', './icons/icon-512.png'
