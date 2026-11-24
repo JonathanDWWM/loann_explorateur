@@ -1,0 +1,17 @@
+{
+  "name": "Loann l'explorateur",
+  "short_name": "Loann",
+  "description": "Exercices ludiques pour apprendre : nombres, lettres, formes, logique, mémoire et le monde.",
+  "lang": "fr",
+  "start_url": "./",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#bfe9ff",
+  "theme_color": "#7c4dff",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}
